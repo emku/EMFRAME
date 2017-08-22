@@ -1,0 +1,6 @@
+framework module Pods_EMFRAME {
+  umbrella header "Pods-EMFRAME-umbrella.h"
+
+  export *
+  module * { export * }
+}
