@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EMFRAME/Classes/Network/EMNETS.swift"
+            timestampString = "525243195.577606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(urlRequest:onSuccess:onFail:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static EMFRAME.EMNETS.request (urlRequest : Alamofire.URLRequestConvertible, onSuccess : (SwiftyJSON.JSON) -&gt; (), onFail : (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "EMFRAME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Emku/WORK/EMFRAME/EMFRAME/Classes/Network/EMNETS.swift"
+                  timestampString = "525243490.00909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static EMFRAME.EMNETS.(request (urlRequest : Alamofire.URLRequestConvertible, onSuccess : (SwiftyJSON.JSON) -&gt; (), onFail : (Swift.String) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "EMFRAME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Documents/Emku/WORK/EMFRAME/EMFRAME/Classes/Network/EMNETS.swift"
+                  timestampString = "525243490.011986"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

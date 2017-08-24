@@ -10,9 +10,8 @@ s.source_files  = "EMFRAME/Classes/**/*.{h,m,swift}"
 s.resource_bundles = {'EMFRAME' => ['EMFRAME/Assets/*.{storyboard,xib,xcassets,json,imageset,png,plist}']}
 s.resource = 'EMFRAME/Assets/*'
 s.platform = :ios, "9.0"
-s.dependency 'Alamofire'
-
+s.dependency 'Alamofire', '~> 4.4'
+s.dependency 'SwiftyJSON'
 s.dependency 'IQKeyboardManagerSwift'
-
 s.dependency 'HexColors'
 end

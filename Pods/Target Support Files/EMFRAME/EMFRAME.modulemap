@@ -1,0 +1,6 @@
+framework module EMFRAME {
+  umbrella header "EMFRAME-umbrella.h"
+
+  export *
+  module * { export * }
+}
