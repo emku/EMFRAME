@@ -18,15 +18,7 @@ public class EMNETS {
         onSuccess: @escaping (_ result:JSON)->Void,
         onFail: @escaping (_ response:String)->Void){
         
-        var req :URLRequest?
-        do {
-            req = try urlRequest.asURLRequest()
-        }catch{
-            req = nil
-            onFail("Error :: \(error.localizedDescription)")
-        }
-        
-      getRest(req: req!, response: { (json) in
+      getRest(req: urlRequest, response: { (json) in
         onSuccess(json!)
       }) { (error) in
         onFail(error)
@@ -34,8 +26,8 @@ public class EMNETS {
     }
         
     
-    fileprivate static func getRest(req : URLRequest, response : @escaping (JSON?)->(),errorString : @escaping (String) ->() ){
-        _ = Alamofire.request(req).responseJSON { (resp) in
+    fileprivate static func getRest(req : URLRequestConvertible, response : @escaping (JSON?)->(),errorString : @escaping (String) ->() ){
+        _ = Alamofire.request(req).validate().responseJSON { (resp) in
             var json : JSON?
             var err : String
             

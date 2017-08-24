@@ -13,6 +13,8 @@
 		A7300A8E1F4E6F68006954DE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7300A8D1F4E6F68006954DE /* Alamofire.framework */; };
 		A7300A901F4E6F6B006954DE /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7300A8F1F4E6F6B006954DE /* SwiftyJSON.framework */; };
 		A7300A9A1F4E715E006954DE /* EMFRAME.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AD45F21F4C1AA800F2A590 /* EMFRAME.framework */; };
+		A7300AA41F4EA53F006954DE /* NetworkModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7300AA31F4EA53F006954DE /* NetworkModule.swift */; };
+		A7300AA91F4EA954006954DE /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7300AA81F4EA954006954DE /* Helper.swift */; };
 		A7AD45F71F4C1AA800F2A590 /* EMFRAME.h in Headers */ = {isa = PBXBuildFile; fileRef = A7AD45F51F4C1AA800F2A590 /* EMFRAME.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7AD46001F4C256600F2A590 /* EMFRAME.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A7AD45FF1F4C256600F2A590 /* EMFRAME.podspec */; };
 		A7AD46051F4C271400F2A590 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD46041F4C271400F2A590 /* class.swift */; };
@@ -34,6 +36,8 @@
 		A7300A8D1F4E6F68006954DE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../Library/Developer/Xcode/DerivedData/EMFRAME-czgfifzljjhgkebgnxtirzpfktxf/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		A7300A8F1F4E6F6B006954DE /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/EMFRAME-czgfifzljjhgkebgnxtirzpfktxf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		A7300A9B1F4E7271006954DE /* Pods_EMFRAME.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_EMFRAME.framework; path = "../../../../Library/Developer/Xcode/DerivedData/EMFRAME-czgfifzljjhgkebgnxtirzpfktxf/Build/Products/Debug-iphonesimulator/Pods_EMFRAME.framework"; sourceTree = "<group>"; };
+		A7300AA31F4EA53F006954DE /* NetworkModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModule.swift; sourceTree = "<group>"; };
+		A7300AA81F4EA954006954DE /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		A7AD45F21F4C1AA800F2A590 /* EMFRAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMFRAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD45F51F4C1AA800F2A590 /* EMFRAME.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMFRAME.h; sourceTree = "<group>"; };
 		A7AD45F61F4C1AA800F2A590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +100,22 @@
 				581DF491FBFA143AF0387FB6 /* Pods_EMFRAMETest.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7300AA21F4EA53F006954DE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A7300AA31F4EA53F006954DE /* NetworkModule.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A7300AA71F4EA954006954DE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A7300AA81F4EA954006954DE /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		A7AD45E81F4C1AA800F2A590 = {
@@ -171,6 +191,8 @@
 		A7AD462B1F4E623000F2A590 /* EMFRAMETest */ = {
 			isa = PBXGroup;
 			children = (
+				A7300AA71F4EA954006954DE /* Helper */,
+				A7300AA21F4EA53F006954DE /* Network */,
 				A7AD462C1F4E623000F2A590 /* AppDelegate.swift */,
 				A7AD462E1F4E623000F2A590 /* ViewController.swift */,
 				A7AD46301F4E623000F2A590 /* Main.storyboard */,
@@ -394,6 +416,8 @@
 			files = (
 				A7AD462F1F4E623000F2A590 /* ViewController.swift in Sources */,
 				A7AD462D1F4E623000F2A590 /* AppDelegate.swift in Sources */,
+				A7300AA41F4EA53F006954DE /* NetworkModule.swift in Sources */,
+				A7300AA91F4EA954006954DE /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

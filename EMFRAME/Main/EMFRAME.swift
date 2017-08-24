@@ -13,20 +13,15 @@ import SwiftyJSON
 public class EMFRAME {
     
     //standar without method
-    public static func requestAPI(url : String,
+    public static func requestAPI(request : URLRequestConvertible,
         onSuccess: @escaping (_ result:JSON)->Void,
         onFail: @escaping (_ response:String)->Void) {
-    
-        print(url)
-        
-        let url = URL(string: url)
-        let req = URLRequest(url: url!)
            
-            EMNETS.request(urlRequest: req, onSuccess: { (json) in
-                onSuccess(json)
-            }) { (err) in
-                onFail(err)
-            }
+        EMNETS.request(urlRequest: request, onSuccess: { (json) in
+            onSuccess(json)
+        }) { (err) in
+            onFail(err)
+        }
     }
     
     //with method

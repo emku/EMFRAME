@@ -18,6 +18,7 @@ target 'EMFRAMETest' do
     use_frameworks!
     
     pod 'EMFRAME', :path => '../EMFRAME'
+    pod 'SwiftyJSON'
     
     
     
