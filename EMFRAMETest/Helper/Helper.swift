@@ -15,13 +15,11 @@ public struct Helper {
         return "http://jsonplaceholder.typicode.com/"
     }
     
-    
     public static func generateDeviceID()->String{
         //device id
         let deviceid = UIDevice.current.identifierForVendor?.uuidString
         return deviceid!
     }
-    
 
     
 }

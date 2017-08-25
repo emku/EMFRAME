@@ -7,13 +7,13 @@
 //
 
 import Foundation
-import EMFRAME
 import Alamofire
 
 
-enum NetworkModule: URLRequestConvertible {
+enum LoginRouter: URLRequestConvertible {
     case loadModule()
     case postModule(title: String, body: String, userId: Int)
+    
     
     var method : HTTPMethod{
         switch self {

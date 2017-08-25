@@ -18,6 +18,9 @@ public class EMFRAME {
         onFail: @escaping (_ response:String)->Void) {
            
         EMNETS.request(urlRequest: request, onSuccess: { (json) in
+            print("======json=====")
+            print(json)
+            print("===============")
             onSuccess(json)
         }) { (err) in
             onFail(err)
