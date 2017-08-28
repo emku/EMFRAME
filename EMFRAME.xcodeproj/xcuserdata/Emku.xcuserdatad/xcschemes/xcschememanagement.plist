@@ -9,10 +9,25 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>EMFRAMETest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A7AD45F11F4C1AA800F2A590</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7AD460E1F4C32E600F2A590</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A7AD46291F4E623000F2A590</key>
 		<dict>
 			<key>primary</key>
 			<true/>
