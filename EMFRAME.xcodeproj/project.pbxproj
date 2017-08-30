@@ -28,13 +28,11 @@
 		A7A1EB561F4FBF5F00857524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A1EB541F4FBF5F00857524 /* ViewController.swift */; };
 		A7A1EB581F4FBFA900857524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A1EB571F4FBFA900857524 /* Main.storyboard */; };
 		A7AD45F71F4C1AA800F2A590 /* EMFRAME.h in Headers */ = {isa = PBXBuildFile; fileRef = A7AD45F51F4C1AA800F2A590 /* EMFRAME.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7AD46001F4C256600F2A590 /* EMFRAME.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A7AD45FF1F4C256600F2A590 /* EMFRAME.podspec */; };
-		A7AD46051F4C271400F2A590 /* class.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD46041F4C271400F2A590 /* class.swift */; };
 		A7AD460A1F4C27E900F2A590 /* assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD46091F4C27E900F2A590 /* assets.swift */; };
 		A7AD461E1F4C333200F2A590 /* EMNETS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD461D1F4C333200F2A590 /* EMNETS.swift */; };
-		A7AD46251F4E56A800F2A590 /* EMFRAME.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD46241F4E56A800F2A590 /* EMFRAME.swift */; };
 		A7AD462D1F4E623000F2A590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AD462C1F4E623000F2A590 /* AppDelegate.swift */; };
 		A7AD46371F4E623000F2A590 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AD46351F4E623000F2A590 /* LaunchScreen.storyboard */; };
+		A7BE33AB1F56A0F6001DA9C7 /* EMFRAME.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BE33AA1F56A0F6001DA9C7 /* EMFRAME.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,16 +61,14 @@
 		A7AD45F21F4C1AA800F2A590 /* EMFRAME.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EMFRAME.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD45F51F4C1AA800F2A590 /* EMFRAME.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMFRAME.h; sourceTree = "<group>"; };
 		A7AD45F61F4C1AA800F2A590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7AD45FF1F4C256600F2A590 /* EMFRAME.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EMFRAME.podspec; sourceTree = "<group>"; };
-		A7AD46041F4C271400F2A590 /* class.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = class.swift; sourceTree = "<group>"; };
 		A7AD46091F4C27E900F2A590 /* assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = assets.swift; sourceTree = "<group>"; };
 		A7AD461D1F4C333200F2A590 /* EMNETS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMNETS.swift; sourceTree = "<group>"; };
-		A7AD46241F4E56A800F2A590 /* EMFRAME.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMFRAME.swift; sourceTree = "<group>"; };
 		A7AD462A1F4E623000F2A590 /* EMFRAMETest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMFRAMETest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD462C1F4E623000F2A590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7AD46331F4E623000F2A590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7AD46361F4E623000F2A590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7AD46381F4E623000F2A590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7BE33AA1F56A0F6001DA9C7 /* EMFRAME.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMFRAME.swift; sourceTree = "<group>"; };
 		F8F0D3AFDF905AA63F3673A2 /* Pods-EMFRAMETest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMFRAMETest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMFRAMETest/Pods-EMFRAMETest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -183,8 +179,6 @@
 		A7AD45E81F4C1AA800F2A590 = {
 			isa = PBXGroup;
 			children = (
-				A7AD45FF1F4C256600F2A590 /* EMFRAME.podspec */,
-				A7AD46231F4E56A800F2A590 /* Main */,
 				A7AD46081F4C27E900F2A590 /* Assets */,
 				A7AD46031F4C271400F2A590 /* Classes */,
 				A7AD45F41F4C1AA800F2A590 /* EMFRAME */,
@@ -216,8 +210,8 @@
 		A7AD46031F4C271400F2A590 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A7BE33A91F56A0F6001DA9C7 /* Main */,
 				A7AD461C1F4C333200F2A590 /* Network */,
-				A7AD46041F4C271400F2A590 /* class.swift */,
 			);
 			name = Classes;
 			path = EMFRAME/classes;
@@ -241,15 +235,6 @@
 			path = EMFRAME/Classes/Network;
 			sourceTree = SOURCE_ROOT;
 		};
-		A7AD46231F4E56A800F2A590 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				A7AD46241F4E56A800F2A590 /* EMFRAME.swift */,
-			);
-			name = Main;
-			path = EMFRAME/Main;
-			sourceTree = "<group>";
-		};
 		A7AD462B1F4E623000F2A590 /* EMFRAMETest */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +249,15 @@
 			);
 			path = EMFRAMETest;
 			sourceTree = "<group>";
+		};
+		A7BE33A91F56A0F6001DA9C7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A7BE33AA1F56A0F6001DA9C7 /* EMFRAME.swift */,
+			);
+			name = Main;
+			path = EMFRAME/Classes/Main;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -366,7 +360,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7AD46001F4C256600F2A590 /* EMFRAME.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,10 +458,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BE33AB1F56A0F6001DA9C7 /* EMFRAME.swift in Sources */,
 				A7AD461E1F4C333200F2A590 /* EMNETS.swift in Sources */,
-				A7AD46251F4E56A800F2A590 /* EMFRAME.swift in Sources */,
 				A7AD460A1F4C27E900F2A590 /* assets.swift in Sources */,
-				A7AD46051F4C271400F2A590 /* class.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
